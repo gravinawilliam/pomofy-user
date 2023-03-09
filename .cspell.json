@@ -50,11 +50,5 @@
     "lorem-ipsum",
     "es-es"
   ],
-  "words": [
-    "endent",
-    "Gravina",
-    "prisma",
-    "sonarjs",
-    "typeorm"
-  ]
+  "words": ["endent", "Gravina", "prisma", "sonarjs", "typeorm"]
 }

@@ -90,8 +90,8 @@ module.exports = {
       },
       rules: {
         'import/no-extraneous-dependencies': 'off',
-        "jest-extended/prefer-to-be-true": "warn",
-        "jest-extended/prefer-to-be-false": "error",
+        'jest-extended/prefer-to-be-true': 'warn',
+        'jest-extended/prefer-to-be-false': 'error',
         '@typescript-eslint/no-namespace': 'off',
         // For faster development
         'no-process-exit': 'off',

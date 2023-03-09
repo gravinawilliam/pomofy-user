@@ -28,7 +28,7 @@
       "@factories/*": ["src/main/factories/*"],
       "@main/*": ["src/main/*"],
       "@presentation/*": ["src/presentation/*"],
-      "@shared/*": ["src/shared/*"],
+      "@shared/*": ["src/shared/*"]
     },
     "typeRoots": ["../node_modules/@types", "node_modules/@types", "src/types", "src/main/frameworks/express/types"],
     "forceConsistentCasingInFileNames": true,
