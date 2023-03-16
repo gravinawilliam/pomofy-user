@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  pg:
+    container_name: db-pg
+    image: 'bitnami/postgresql:latest'
+    environment:
+      POSTGRESQL_PASSWORD: ${DB_PG_PASSWORD}
+      POSTGRESQL_USERNAME: ${DB_PG_USERNAME}
+      POSTGRESQL_DATABASE: ${DB_PG_DATABASE_NAME}
+      POSTGRESQL_TIMEZONE: America/SAO_PAULO
+    ports:
+      - '${DB_PG_PORT}:5432'
+    restart: unless-stopped

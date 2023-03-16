@@ -42,7 +42,7 @@ export class RepositoryError {
         ? ''
         : ` Error in external lib name: ${parameters.repository.externalName}.`
     }`;
-    this.status = StatusError.PROVIDER_ERROR;
+    this.status = StatusError.REPOSITORY_ERROR;
     this.error = parameters.error;
   }
 }
