@@ -19,3 +19,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: ${{ secrets.DOCKER_USERNAME }}/pomofy-user
         tags: ${{ github.sha }}, latest
+        file: "{context}/Dockerfile.prod"
