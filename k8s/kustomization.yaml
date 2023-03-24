@@ -8,4 +8,4 @@ resources:
 images:
 - name: pomofy-user
   newName: gravinawilliam/pomofy-user
-  newTag: 0e8d7fa7c9ef5b4f529cb0c5986d55a0d47179d8
+  newTag: 8d6d93ffda3d11659eea557f8015ee2eb4004eef
