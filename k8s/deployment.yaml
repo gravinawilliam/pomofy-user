@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pomofy-user
+spec:
+  selector:
+    matchLabels:
+      app: pomofy-user
+  template:
+    metadata:
+      labels:
+        app: pomofy-user
+    spec:
+      containers:
+      - name: pomofy-user
+        image: pomofy-user
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8080
+
